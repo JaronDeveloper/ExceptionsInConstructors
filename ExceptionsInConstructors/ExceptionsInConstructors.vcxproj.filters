@@ -15,69 +15,69 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\AllFigures\AllFigures\Rectangle.cpp">
+    <ClCompile Include="FiguresCpp.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\Square.cpp">
+    <ClCompile Include="FiguresMain.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\FiguresCpp.cpp">
+    <ClCompile Include="Parallelogram.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\RightRriangle.cpp">
+    <ClCompile Include="Rhombus.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\IsoscelesTriangle.cpp">
+    <ClCompile Include="Square.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\EquilateralTriangle.cpp">
+    <ClCompile Include="Rectangle.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\Quadrilateral.cpp">
+    <ClCompile Include="EquilateralTriangle.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\Triangle.cpp">
+    <ClCompile Include="IsoscelesTriangle.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\FiguresMain.cpp">
+    <ClCompile Include="RightRriangle.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\Parallelogram.cpp">
+    <ClCompile Include="Triangle.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\AllFigures\AllFigures\Rhombus.cpp">
+    <ClCompile Include="Quadrilateral.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\AllFigures\AllFigures\EquilateralTriangle.h">
+    <ClInclude Include="Rectangle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\Rectangle.h">
+    <ClInclude Include="Square.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\Square.h">
+    <ClInclude Include="Rhombus.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\Rhombus.h">
+    <ClInclude Include="Quadrilateral.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\Triangle.h">
+    <ClInclude Include="Triangle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\Quadrilateral.h">
+    <ClInclude Include="FiguresH.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\Parallelogram.h">
+    <ClInclude Include="Parallelogram.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\FiguresH.h">
+    <ClInclude Include="RightRriangle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\RightRriangle.h">
+    <ClInclude Include="IsoscelesTriangle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\AllFigures\AllFigures\IsoscelesTriangle.h">
+    <ClInclude Include="EquilateralTriangle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

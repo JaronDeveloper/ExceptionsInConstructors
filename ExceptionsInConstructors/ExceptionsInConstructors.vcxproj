@@ -18,6 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EquilateralTriangle.cpp" />
+    <ClCompile Include="FiguresCpp.cpp" />
+    <ClCompile Include="FiguresMain.cpp" />
+    <ClCompile Include="IsoscelesTriangle.cpp" />
+    <ClCompile Include="Parallelogram.cpp" />
+    <ClCompile Include="Quadrilateral.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rhombus.cpp" />
+    <ClCompile Include="RightRriangle.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EquilateralTriangle.h" />
+    <ClInclude Include="FiguresH.h" />
+    <ClInclude Include="IsoscelesTriangle.h" />
+    <ClInclude Include="Parallelogram.h" />
+    <ClInclude Include="Quadrilateral.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rhombus.h" />
+    <ClInclude Include="RightRriangle.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="Triangle.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,31 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\AllFigures\AllFigures\EquilateralTriangle.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\FiguresCpp.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\FiguresMain.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\IsoscelesTriangle.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\Parallelogram.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\Quadrilateral.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\Rectangle.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\Rhombus.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\RightRriangle.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\Square.cpp" />
-    <ClCompile Include="..\..\AllFigures\AllFigures\Triangle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\AllFigures\AllFigures\EquilateralTriangle.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\FiguresH.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\IsoscelesTriangle.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\Parallelogram.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\Quadrilateral.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\Rectangle.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\Rhombus.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\RightRriangle.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\Square.h" />
-    <ClInclude Include="..\..\AllFigures\AllFigures\Triangle.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
