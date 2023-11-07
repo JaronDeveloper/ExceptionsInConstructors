@@ -127,11 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Figures.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\EquilateralTriangle.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\FiguresCpp.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\FiguresMain.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\IsoscelesTriangle.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\Parallelogram.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\Quadrilateral.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\Rectangle.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\Rhombus.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\RightRriangle.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\Square.cpp" />
+    <ClCompile Include="..\..\AllFigures\AllFigures\Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Exceptions.cpp" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\EquilateralTriangle.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\FiguresH.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\IsoscelesTriangle.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\Parallelogram.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\Quadrilateral.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\Rectangle.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\Rhombus.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\RightRriangle.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\Square.h" />
+    <ClInclude Include="..\..\AllFigures\AllFigures\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
