@@ -2,7 +2,7 @@
 
 Rhombus::Rhombus(int a, int b, int c, int d, int A, int B, int C, int D) {
 	if (A != C && D != B) {
-		throw "sumAngles";
+		throw Rhombus();
 	}
 	this->a = a;
 	this->b = b;

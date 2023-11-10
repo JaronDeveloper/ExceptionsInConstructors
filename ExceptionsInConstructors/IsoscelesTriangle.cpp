@@ -2,7 +2,7 @@
 
 IsoscelesTriangle::IsoscelesTriangle(int a, int b, int c, int A, int B, int C) {
 	if (A!=C) {
-		throw "A!=C";
+		throw IsoscelesTriangle();
 	}
 	this->a = a;
 	this->b = b;

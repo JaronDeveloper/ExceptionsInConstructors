@@ -1,15 +1,11 @@
 #pragma once
-#include "Triangle.h"
+#include "Quadrilateral.h"
 
-class Rhombus : public Triangle {
+class Rhombus : public Quadrilateral {
 public:
-	//int	a = 30, b = 30, c = 30, d = 30;
-	//int	A = 30, B = 40, C = 30, D = 40;
-
 	std::string NameFigures = "Ромб:";
-
 	Rhombus() {}
 	Rhombus(int a, int b, int c, int d, int A, int B, int C, int D);
-
+	const char* what() const override { return "Ошибка создания фигуры. Причина: углы A,C и B,D попарно не равны"; }
 	std::string getType() override;
 };

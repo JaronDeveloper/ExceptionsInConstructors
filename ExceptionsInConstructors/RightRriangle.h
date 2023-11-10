@@ -4,12 +4,8 @@
 class RightRriangle : public Triangle {
 public:
 	std::string NameFigures = "Прямоугольный треугольник:";
-
-	//int a = 10, b = 20, c = 30;
-	//int A = 50, B = 60, C = 90;
-
 	RightRriangle() {}
 	RightRriangle(int a, int b, int c, int A, int B, int C);
-
+	const char* what() const override { return "Ошибка создания фигуры. Причина: угол C всегда не равен 90"; }
 	std::string getType() override;
 };

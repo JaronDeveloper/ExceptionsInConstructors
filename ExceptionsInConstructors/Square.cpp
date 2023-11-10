@@ -2,7 +2,7 @@
 
 Square::Square(int a, int b, int c, int d, int A, int B, int C, int D) {
 	if (A != 90 || C != 90 || B != 90 || D != 90) {
-		throw "sumAngles";
+		throw Square();
 	}
 	this->a = a;
 	this->b = b;

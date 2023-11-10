@@ -2,7 +2,7 @@
 
 RightRriangle::RightRriangle(int a, int b, int c, int A, int B, int C) {
 	if (C != 90) {
-		throw "sumAngles";
+		throw RightRriangle();
 	}
 	this->a = a;
 	this->b = b;

@@ -1,23 +1,16 @@
 #pragma once
 #include <iostream>
 
-class  Figures
+class  Figures : public std::exception
 {
-public:	
-	int a, b, c, d;//стороны
-	int	A, B, C, D;//углы
-	int number;//количество сторон
-	int sumAngles;
-
+public:		
 	std::string NameFigures;
-	
-
 	virtual std::string getType();	
+	virtual void info() {}
 };
 
 void print_info(Figures* f);
 
-int sum(Figures* f);
 
 
 

@@ -1,15 +1,11 @@
 #pragma once
-#include "Triangle.h"
+#include "Quadrilateral.h"
 
-class Parallelogram : public Triangle {
+class Parallelogram : public Quadrilateral {
 public:
-	//int	a = 20, b = 30, c = 20, d = 30;
-	//int	A = 30, B = 40, C = 30, D = 40;
-
 	std::string NameFigures = "Параллелограмм:";
-
 	Parallelogram() {}
 	Parallelogram(int a, int b, int c, int d, int A, int B, int C, int D);
-
+	const char* what() const override { return "Ошибка создания фигуры. Причина: углы A,C и B,D попарно не равны"; }
 	std::string getType() override;
 };
